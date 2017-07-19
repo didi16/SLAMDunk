@@ -1,0 +1,772 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"st",
+				"stereo"
+			],
+			[
+				"per",
+				"performanceNoiseMap"
+			],
+			[
+				"mana",
+				"manageZEDObject"
+			],
+			[
+				"grab",
+				"grabFrameZed"
+			],
+			[
+				"man",
+				"manageZEDObject"
+			],
+			[
+				"zed",
+				"zedCamObject"
+			],
+			[
+				"nois",
+				"noiseMatrix"
+			],
+			[
+				"mer",
+				"mergeFromConfidenceMap"
+			],
+			[
+				"con",
+				"mergeFromConfidenceMap"
+			],
+			[
+				"curr",
+				"currentCol"
+			],
+			[
+				"dep",
+				"depthCnn"
+			],
+			[
+				"cnn",
+				"cnnDepthMap"
+			],
+			[
+				"cou",
+				"counterPositiveSamples"
+			],
+			[
+				"get",
+				"getLinearRMSE"
+			],
+			[
+				"sca",
+				"scaleStereoDepthMap"
+			],
+			[
+				"costs",
+				"costsFile"
+			],
+			[
+				"sa",
+				"scaleGroundTruth"
+			],
+			[
+				"setSca",
+				"setScaleDepthMap"
+			],
+			[
+				"de",
+				"depthScale"
+			],
+			[
+				"scale",
+				"depthScale"
+			],
+			[
+				"setS",
+				"setScaleDepthMap"
+			],
+			[
+				"me",
+				"meanDepthMap"
+			],
+			[
+				"co",
+				"counterPositiveSamples"
+			],
+			[
+				"input",
+				"inputMap"
+			],
+			[
+				"inp",
+				"inputMap"
+			],
+			[
+				"in",
+				"inputImage"
+			],
+			[
+				"des",
+				"desiredSizeInputMap"
+			],
+			[
+				"pa",
+				"path2ProtoFile"
+			],
+			[
+				"path",
+				"path2Caffemodel"
+			],
+			[
+				"en",
+				"endl"
+			],
+			[
+				"inc",
+				"include"
+			],
+			[
+				"type",
+				"inputMapType"
+			],
+			[
+				"num",
+				"numberCurrentImage"
+			],
+			[
+				"image",
+				"imageEmpty"
+			],
+			[
+				"re",
+				"return"
+			],
+			[
+				"depth",
+				"depth_merged"
+			],
+			[
+				"push",
+				"push_mat_pred"
+			],
+			[
+				"err",
+				"err_a"
+			],
+			[
+				"pu",
+				"push_mat_gt"
+			],
+			[
+				"images",
+				"images_path_format"
+			],
+			[
+				"frame",
+				"frame_counter"
+			],
+			[
+				"weig",
+				"weight_mat"
+			],
+			[
+				"merged",
+				"merged_points"
+			],
+			[
+				"ori",
+				"original_image"
+			],
+			[
+				"map",
+				"map_color"
+			],
+			[
+				"fra",
+				"frame_counter"
+			],
+			[
+				"or",
+				"original_image"
+			],
+			[
+				"ite",
+				"iter_"
+			],
+			[
+				"ze",
+				"zed_input"
+			],
+			[
+				"dept",
+				"depth_confidence"
+			],
+			[
+				"end",
+				"endif"
+			],
+			[
+				"av",
+				"av_depth"
+			],
+			[
+				"ima",
+				"im_float"
+			],
+			[
+				"im",
+				"image_resize"
+			],
+			[
+				"e",
+				"else"
+			],
+			[
+				"arg",
+				"argc"
+			],
+			[
+				"n",
+				"n_channels"
+			],
+			[
+				"a",
+				"argc"
+			],
+			[
+				"label",
+				"labels"
+			],
+			[
+				"lab",
+				"labels"
+			],
+			[
+				"par",
+				"partial2"
+			],
+			[
+				"part",
+				"partial1"
+			],
+			[
+				"m",
+				"map_gt"
+			],
+			[
+				"rmse_lo",
+				"rmse_log_inv"
+			],
+			[
+				"rm",
+				"rmse_lin"
+			],
+			[
+				"rmse",
+				"rmse_log_inv"
+			],
+			[
+				"rs",
+				"rmse_log"
+			],
+			[
+				"ma",
+				"map_pred"
+			]
+		]
+	},
+	"buffers":
+	[
+		{
+			"contents": "import { Component } from '@angular/core';\nimport{AngularFire,FirebaseListObservable} from 'angularfire2'\n\n@Component({\n  selector: 'page-hello-ionic',\n  templateUrl: 'hello-ionic.html',\n})\nexport class HelloIonicPage {\n\n}\n\n",
+			"file": "/home/diogo/Desktop/myfitnessapp/src/pages/hello-ionic/hello-ionic.ts",
+			"file_size": 224,
+			"file_write_time": 131397615115796155,
+			"settings":
+			{
+				"buffer_size": 224,
+				"encoding": "UTF-8",
+				"line_ending": "Unix"
+			}
+		}
+	],
+	"build_system": "",
+	"build_system_choices":
+	[
+	],
+	"build_varint": "",
+	"command_palette":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"console":
+	{
+		"height": 139.0,
+		"history":
+		[
+			"import urllib.request,os,hashlib; h = 'df21e130d211cfc94d9b0905775a7c0f' + '1e3d39e33b79698005270310898eea76'; pf = 'Package Control.sublime-package'; ipp = sublime.installed_packages_path(); urllib.request.install_opener( urllib.request.build_opener( urllib.request.ProxyHandler()) ); by = urllib.request.urlopen( 'http://packagecontrol.io/' + pf.replace(' ', '%20')).read(); dh = hashlib.sha256(by).hexdigest(); print('Error validating download (got %s instead of %s), please try manual install' % (dh, h)) if dh != h else open(os.path.join( ipp, pf), 'wb' ).write(by) "
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"expanded_folders":
+	[
+		"/home/diogo/Desktop/myfitnessapp",
+		"/home/diogo/Desktop/myfitnessapp/node_modules/angularfire2",
+		"/home/diogo/Desktop/myfitnessapp/src",
+		"/home/diogo/Desktop/myfitnessapp/src/app",
+		"/home/diogo/Desktop/myfitnessapp/src/pages"
+	],
+	"file_history":
+	[
+		"/home/diogo/Desktop/myfitnessapp/src/pages/hello-ionic/hello-ionic.html",
+		"/home/diogo/Desktop/myfitnessapp/package.json",
+		"/home/diogo/Desktop/myfitnessapp/src/app/app.module.ts",
+		"/home/diogo/Desktop/myfitnessapp/src/app/services/posts.service.ts",
+		"/home/diogo/Desktop/myfitnessapp/src/pages/hello-ionic/hello-ionic.ts",
+		"/home/diogo/Desktop/Thesis/ssl/src/includes/stereo.cpp",
+		"/home/diogo/Desktop/Thesis/ssl/src/ssl.cpp",
+		"/home/diogo/Desktop/Thesis/ssl/src/ssl.h",
+		"/home/diogo/Desktop/Thesis/ssl/CMakeLists.txt",
+		"/home/diogo/Desktop/opencv_contrib/modules/stereo/samples/sample.cpp",
+		"/home/diogo/Desktop/Thesis/ssl/src/includes/manageObjectCnn.cpp",
+		"/home/diogo/Desktop/Thesis/ssl/nets/eigenSSL.prototxt",
+		"/home/diogo/Desktop/Thesis/ssl/src/includes/manageZEDObject.cpp",
+		"/home/diogo/Desktop/opencv_contrib/modules/stereo/src/descriptor.cpp",
+		"/home/diogo/Desktop/opencv_contrib/modules/stereo/perf/perf_main.cpp",
+		"/home/diogo/caffe/src/caffe/solver.cpp",
+		"/home/diogo/Desktop/Thesis/ssl/src/includes/manageObjectDepthMap.cpp",
+		"/home/diogo/Desktop/Thesis/ssl/src/includes/manageObjectInputMap.cpp",
+		"/home/diogo/Desktop/Thesis/ssl/src/includes/manageObjectDepthMap.h",
+		"/home/diogo/Desktop/Thesis/ssl/src/includes/manageObjectCnn.h",
+		"/home/diogo/Desktop/Thesis/ssl/src/includes/facilMergeAlgorithm.h",
+		"/home/diogo/Desktop/Thesis/ssl/src/includes/facilMergeAlgorithm.cpp",
+		"/home/diogo/Desktop/Thesis/ssl/src/includes/manageDepthMapPerformance.h",
+		"/home/diogo/Desktop/Thesis/ssl/src/includes/manageDepthMapPerformance.cpp",
+		"/home/diogo/Desktop/Thesis/display_cnn_stereo/src/merger.cpp",
+		"/home/diogo/Desktop/Thesis/ssl/src/includes/manageObjectInputMap.h",
+		"/home/diogo/Desktop/Thesis/ssl/nets/solverSSL.prototxt",
+		"/home/diogo/Desktop/Thesis/display_cnn_stereo/src/merger.h",
+		"/home/diogo/Desktop/Thesis/display_cnn_stereo/src/include/my_func.h",
+		"/home/diogo/Desktop/Thesis/display_cnn_stereo/src/include/my_func.cpp",
+		"/home/diogo/Desktop/Thesis/ssl/src/includes/utilities.h",
+		"/home/diogo/Desktop/Thesis/ssl/src/includes/utilities.cpp",
+		"/home/diogo/Desktop/Thesis/display_cnn_stereo/CMakeLists.txt",
+		"/home/diogo/Desktop/Thesis/ssl/src/includes/utilities.hpp",
+		"/home/diogo/Desktop/Thesis/ssl/src/ssl.hpp",
+		"/home/diogo/Desktop/Thesis/ssl/src/include/utilities.cpp",
+		"/home/diogo/Desktop/Thesis/display_cnn_stereo/mix_eigen/mix_eigen_deploy.prototxt",
+		"/home/diogo/Desktop/res_prelim/weights/mix_eigen/mix_eigen_fine.prototxt",
+		"/home/diogo/Desktop/display_cnn_stereo/build/costs.log",
+		"/home/diogo/Thesis/display_cnn_stereo/src/merger.cpp",
+		"/home/diogo/Thesis/display_cnn_stereo/src/include/my_func.cpp",
+		"/home/diogo/Thesis/display_cnn_stereo/src/include/my_func.h",
+		"/home/diogo/Desktop/display_cnn_stereo/src/include/my_func.h",
+		"/home/diogo/Desktop/display_cnn_stereo/src/include/my_func.cpp",
+		"/home/diogo/Desktop/display_cnn_stereo/mix_eigen/mix_eigen_deploy.prototxt",
+		"/home/diogo/Desktop/train_cnn_offline/mix_eigen/mix_eigen_solver.prototxt",
+		"/home/diogo/Desktop/train_cnn_offline/results_eigen/costs_file2.log",
+		"/home/diogo/Desktop/train_cnn_offline/mix_eigen/mix_eigen.prototxt",
+		"/home/diogo/Desktop/datasets/generate_dataset/src/data_set.cpp",
+		"/home/diogo/Desktop/train_cnn_offline/build/mine_shuffled/testt.txt",
+		"/home/diogo/Desktop/train_cnn_offline/build/nyu_shuf/trainn.txt",
+		"/home/diogo/Desktop/train_cnn_offline/build/mine_shuffled/trainn.txt",
+		"/home/diogo/Desktop/train_cnn_offline/build/mine_shuffled/testt_gt.txt",
+		"/home/diogo/Desktop/train_cnn_offline/build/mine_shuffled/trainn_gt.txt",
+		"/home/diogo/Desktop/train_cnn_offline/build/nyu_shuf/testt_gt.txt",
+		"/media/diogo/cnn/nyu_shuf/testt.txt",
+		"/media/diogo/cnn/nyu_shuf/trainn.txt",
+		"/media/diogo/cnn/nyu_shuf/testt_gt.txt",
+		"/media/diogo/cnn/nyu_shuf/trainn_gt.txt",
+		"/media/diogo/cnn/mine_shuffled/trainn_gt.txt",
+		"/media/diogo/cnn/mine_shuffled/trainn.txt",
+		"/media/diogo/cnn/mine_shuffled/testt_gt.txt",
+		"/media/diogo/cnn/mine_shuffled/testt.txt",
+		"/home/diogo/Desktop/datasets/mine_shuffled/trainn.txt",
+		"/home/diogo/Desktop/datasets/mine_shuffled/trainn_gt.txt",
+		"/home/diogo/Desktop/datasets/mine_shuffled/testt_gt.txt",
+		"/home/diogo/Desktop/datasets/mine_shuffled/testt.txt",
+		"/home/diogo/Desktop/train_cnn_offline/build/nyu_shuf/trainn_gt.txt",
+		"/home/diogo/Desktop/train_cnn_offline/build/nyu_shuf/testt.txt",
+		"/home/diogo/Desktop/datasets/nyu_shuf/train/labels/labels.txt",
+		"/home/diogo/Desktop/train_cnn_offline/results_eigen/costs_file.txt",
+		"/home/diogo/Desktop/train_cnn_offline/mix_lstm/mix_lstm.prototxt",
+		"/home/diogo/caffe/examples/mnist/lenet_train_test.prototxt",
+		"/home/diogo/caffe/src/caffe/solvers/sgd_solver.cpp",
+		"/home/diogo/caffe/tools/train_net.cpp",
+		"/home/diogo/caffe/tools/finetune_net.cpp",
+		"/home/diogo/Desktop/train_cnn_offline/src/train_off.cpp",
+		"/home/diogo/caffe/tools/convert_imageset.cpp",
+		"/home/diogo/Desktop/Thesis/generate_dataset/src/data_set.cpp",
+		"/home/diogo/Thesis/src/merger.cpp",
+		"/home/diogo/caffe/tools/test_net.cpp",
+		"/home/diogo/Desktop/Thesis/src/include/my_func.cpp",
+		"/home/diogo/Desktop/Thesis/src/merger.cpp",
+		"/home/diogo/caffe/include/caffe/layers/euclidean_loss_layer.hpp",
+		"/media/diogo/diogo/Thesis/src/merger.cpp",
+		"/home/diogo/Desktop/train_cnn_offline/mix_fcn/mix_fcn.prototxt",
+		"/home/diogo/caffe/src/caffe/layers/euclidean_loss_layer.cpp",
+		"/home/diogo/Desktop/datasets/copy/test_gt/labels/labels.txt",
+		"/home/diogo/Desktop/train_cnn_offline/mix_fcn/mix_fcn_deploy.prototxt",
+		"/home/diogo/Desktop/train_cnn_offline/mix_lstm/mix_lstm_deploy.prototxt",
+		"/home/diogo/Desktop/train_cnn_offline/nets/mix_eigen/mix_eigen.prototxt",
+		"/home/diogo/Desktop/train_cnn_offline/mix_lstm/mix_lstm_solver.prototxt",
+		"/home/diogo/Desktop/train_cnn_offline/src/train_off.h",
+		"/home/diogo/Desktop/train_cnn_offline/src/include/my_func.cpp",
+		"/home/diogo/Desktop/train_cnn_offline/src/include/my_func.h",
+		"/home/diogo/Desktop/generate_dataset/src/data_set.cpp",
+		"/home/diogo/caffe/tools/upgrade_net_proto_text.cpp",
+		"/home/diogo/Desktop/error/src/include/my_func.cpp",
+		"/home/diogo/Desktop/generate_dataset/CMakeLists.txt",
+		"/home/diogo/Thesis/CMakeLists.txt",
+		"/home/diogo/Desktop/error/src/merger.cpp",
+		"/home/diogo/Desktop/error/src/include/merger.h",
+		"/media/diogo/diogo/my_func.cpp",
+		"/media/diogo/diogo/src/merger.cpp",
+		"/home/diogo/Thesis/src/include/my_func.cpp",
+		"/home/diogo/Desktop/error/src/include/my_func.h",
+		"/home/diogo/Desktop/error/CMakeLists.txt",
+		"/home/diogo/Desktop/caffe_d/tools/convert_imageset.cpp",
+		"/home/diogo/caffe/examples/cpp_classification/classification.cpp",
+		"/home/diogo/Thesis/mix_lstm/mix_lstm_deploy.prototxt",
+		"/home/diogo/Thesis/mix_fcn/mix_fcn_deploy.prototxt",
+		"/home/diogo/Thesis/mix_eigen/fine_net_deploy.prototxt",
+		"/home/diogo/Desktop/tutorial/main.cpp",
+		"/home/diogo/Thesis/merger.cpp",
+		"/home/diogo/caffe/models/bvlc_reference_caffenet/deploy.prototxt",
+		"/home/diogo/caffe/data/ilsvrc12/test.txt"
+	],
+	"find":
+	{
+		"height": 35.0
+	},
+	"find_in_files":
+	{
+		"height": 93.0,
+		"where_history":
+		[
+			"",
+			"testt_gt.txt",
+			"trainn_gt.txt",
+			"testt_gt.txt",
+			"testt.txt",
+			"",
+			"testt.txt",
+			"trainn.txt",
+			"trainntxt",
+			"trainn_gt.txt",
+			"testt.txt",
+			"trainn.txt",
+			"testt.txt",
+			"testt_gt.txt",
+			"testt.txt",
+			"testt_gt.txt",
+			"trainn_gt.txt",
+			"trainn.txt",
+			"trainn_gt.txt",
+			"testt_gt.txt",
+			"testt.txt",
+			"testt_gt.txt",
+			"trainn_gt.txt",
+			"trainn.txt",
+			"",
+			"trainn_gt.txt",
+			"trainn.txt",
+			"testt_gt.txt",
+			"testt.txt trainn.txt trainn_gt.txt testt_gt.txt",
+			"testt.txt",
+			"Current folder",
+			""
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			"Http",
+			"round",
+			"imageData",
+			"disparity_max",
+			"cnn.",
+			"solver.",
+			"inputDepthMap.",
+			"inputConfidenceMap.",
+			"inputImage.",
+			"noiseMatrix",
+			"forw",
+			"5",
+			"scale",
+			"inputConfidenceMap",
+			"setDept",
+			"();\n",
+			"output_norm",
+			"step(",
+			"net()",
+			"computeLinearRMSE",
+			"computeScaleInvariantError",
+			"0",
+			"inputMap",
+			"scale",
+			"read",
+			"pointerToChannelsOfInputLayer",
+			"output",
+			"cout",
+			"output_",
+			"input_channels",
+			"inputData",
+			"input_data",
+			"output_",
+			"output",
+			"resize",
+			"setInputIma",
+			"Image",
+			"objectInputImage",
+			"Ca",
+			"can",
+			"can't find",
+			"start",
+			"fake",
+			"weight_mat",
+			"n_zed_depth_im_seq_resized",
+			"resize",
+			"[\\w]",
+			"I0319 [ \\w]",
+			"I0319 [ \\w \\w :\\w \\w:]",
+			"I0319 [ \\w\\w :\\w]",
+			"I0319 [ \\w\\w :]",
+			"I0319 [ \\w :]",
+			"I0319 [ \\w : \\w : ]",
+			"I0319 [ \\w \\w \\w ]]",
+			"I0319 []]",
+			"I0319 * * *]",
+			"I0319 *  * * ]",
+			"I0319 * ]",
+			"real loss",
+			"batch_size: 32",
+			"labels",
+			"png 1",
+			"png 1 ",
+			"nyu_shuf",
+			"nyu_",
+			"/media/ubuntu/cnn//media/ubuntu/cnn/nyu_shuf/",
+			"nyu_",
+			"mine_",
+			"\\n",
+			"$n",
+			"\\n",
+			"^([\\w\\d\\_\\.\\s\\-]*)$",
+			"mine_shuffled/train/labels/",
+			"mine_shuffled/train/labels",
+			"nyu_shuf/train/labels/",
+			"mine_shuffled/test/labels/",
+			"nyu_shuf/test/labels",
+			"/nyu_shuf/",
+			"    batch_size: 1",
+			"150",
+			"lr_mult: 1 ",
+			"lr_mul",
+			"lr_mult: ",
+			"lr_mult: 1.0",
+			":1",
+			" lr_mul:1.",
+			"path_to_protofile",
+			"std::cout",
+			"val_points",
+			"depth_conf_im_seq",
+			"std::cout",
+			"frame_counter",
+			"n_zed_depth_im_seq_resized",
+			"resize",
+			"video",
+			"depth_conf_im_seq",
+			"un_depth",
+			"imagezed",
+			"layers",
+			"lr",
+			"seq_delim",
+			"conv5_4_vec",
+			"conv5_4",
+			"TEST",
+			"convertTo",
+			"pin",
+			"user_input",
+			"cpu"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": true,
+		"replace_history":
+		[
+			"data",
+			"cnn->",
+			"solver->",
+			"inputDepthMap->",
+			"inputConfidenceMap->",
+			"inputImage->",
+			"Map",
+			"manageObjectInputImage",
+			"",
+			"batch_size: 1",
+			"labels/",
+			"png",
+			"mine_shuffled",
+			"nyu_shuf/",
+			"/media/ubuntu/cnn/nyu_",
+			"/media/ubuntu/cnn/mine_",
+			"1 \\n",
+			"1",
+			"mine_shuffled/train_gt/labels/",
+			"mine_shuffled/train/labels/",
+			"mine_shuffled/train/labels",
+			"mine_shuffled/test_gt/labels",
+			"mine_shuffled/test/labels",
+			"nyu_shuf/",
+			"    batch_size: 32",
+			"2",
+			"1",
+			"50",
+			"lr_mult: 0",
+			"lr_mult: 0.0"
+		],
+		"reverse": false,
+		"show_context": false,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"selected": 0,
+			"sheets":
+			[
+				{
+					"buffer": 0,
+					"file": "/home/diogo/Desktop/myfitnessapp/src/pages/hello-ionic/hello-ionic.ts",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 224,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								224,
+								224
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Text/Plain text.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 0,
+					"type": "text"
+				}
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 25.0
+	},
+	"input":
+	{
+		"height": 33.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.find_results":
+	{
+		"height": 0.0
+	},
+	"pinned_build_system": "",
+	"project": "myapp.sublime-project",
+	"replace":
+	{
+		"height": 64.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_symbol":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"selected_group": 0,
+	"settings":
+	{
+	},
+	"show_minimap": true,
+	"show_open_files": false,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 234.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}

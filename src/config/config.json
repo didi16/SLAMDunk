@@ -1,0 +1,101 @@
+{
+	"zed": {
+		"use":false,
+		"source": {
+			"opencv":true,
+			"sdk":false
+		}
+	},
+
+	"importFromFolder": {
+		"use":true,
+		"stereoPair":true,
+		"sources": {
+			"left":"/media/diogo/My Passport/aerospace/original/testSet/leftImage/",
+			"right":"/media/diogo/My Passport/aerospace/original/testSet/rightImage/",
+		    "depthGt":"/media/diogo/My Passport/aerospace/original/testSet/depth/",
+		    "cheapDepth":"/media/diogo/My Passport/aerospace/original/testSet/cheapDepth/",
+		    "confidence":"/media/diogo/My Passport/aerospace/original/testSet/cheapConf/",
+		    "thresholdConfidence":0,
+			"format":"",
+			"firstFrame":0,
+			"lastFrame": 1609
+		},
+		"source": {
+			"left":"/media/diogo/My Passport/aerospace/janiveck/leftImage/",
+			"right":"/media/diogo/My Passport/aerospace/janiveck/rightImage/",
+		    "depthGt":"/media/diogo/My Passport/aerospace/janiveck/depth/",
+		    "cheapDepth":"/media/diogo/My Passport/aerospace/janiveck/cheapDepth/",
+		    "confidence":"/media/diogo/My Passport/aerospace/janiveck/cheapConf/",
+		    "thresholdConfidence":0,
+			"format":"",
+			"firstFrame":0,
+			"lastFrame": 1609
+		}
+	},
+
+
+	"janivanecky":true,
+	"importCnnNoWeightUpdate":{
+		"use":true,
+		"sourcea":{
+			"caffemodel":"/home/diogo/Desktop/resultsThesis/weightsCnnFinalTrain/dense/resultsFine/RES_iter_138255.caffemodel",
+			"protofile":"../nets/eigenSSL.prototxt"
+		},
+		"sources":{
+			"caffemodel":"/home/diogo/Desktop/resultsThesis/weightsCnnFinalTrain/sparse/resultsFine/RES_iter_140000.caffemodel",
+			"protofile":"../nets/eigenSSL.prototxt"
+		},
+		"source":{
+			"caffemodel":"/home/diogo/Desktop/Depth-Estimation/model_norm_abs_100k.caffemodel",
+			"protofile":"/home/diogo/Desktop/Depth-Estimation/net_deploy.prototxt"
+		}
+	},
+
+	"importSslCnn":{
+		"use":false,
+		"sourcek":{
+			"caffemodel":"/home/diogo/Desktop/resultsThesis/weightsCnnFinalTrain/dense/resultsFine/RES_iter_138255.caffemodel",
+			"protofile":"../nets/eigenSSLSparse.prototxt",
+			"solverfile":"../nets/solverSSLSparse.prototxt"
+		},
+		"sources":{
+			"caffemodel":"/home/diogo/Desktop/resultsThesis/weightsCnnFinalTrain/sparse/resultsFine/RES_iter_140000.caffemodel",
+			"protofile":"../nets/eigenSSLSparse.prototxt",
+			"solverfile":"../nets/solverSSLSparse.prototxt"
+		},
+		"source":{
+			"caffemodel":"/home/diogo/Desktop/Depth-Estimation/model_norm_abs_100k.caffemodel",
+			"protofile":"/home/diogo/Desktop/Depth-Estimation/net_train.prototxt",
+			"solverfile":"/home/diogo/Desktop/Depth-Estimation/solver.prototxt"
+		}
+	},
+
+	"resolutionInputMapss":{
+		"width":256,
+		"height":160
+	},
+		"resolutionInputMaps":{
+		"width":298,
+		"height":218
+	},
+	"resolutionOutputMapss":{
+		"width":64,
+		"height":40
+	},
+		"resolutionOutputMaps":{
+		"width":74,
+		"height":54
+	},
+	"scales":{
+		"scaleOriginalCnnMap": 20.0,
+		"scaleSslCnnMap": 20.0
+	},
+
+	"scaleGT": 20.0,
+
+	"merge": true	,
+	"stereoOPenCV": false,
+	"displayMaps": false,
+	"facil":false
+}
